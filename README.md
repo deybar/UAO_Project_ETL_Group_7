@@ -1,7 +1,7 @@
 # Análisis del Comportamiento de las Rutas de Transporte Público Urbano
 
 ## Descripción
-Este repositorio contiene el proyecto final del curso de ETL, donde se analiza el comportamiento de las rutas de transporte público en Transportes Montebello. Se aplican procesos ETL para organizar y analizar datos de seguimiento vehicular, optimizando la asignación de despachos.
+Este repositorio contiene el proyecto final del curso de ETL, donde se analiza el comportamiento de las rutas de transporte público en Transportes Montebello. Se aplican procesos ETL para organizar y analizar datos de seguimiento vehicular, describiendo el comportamiento de las rutas sus tiempos y distancias.
 
 ## Descripción del Proyecto
 Este repositorio contiene el desarrollo del proyecto final del curso de ETL de la maestría en Inteligencia Artificial y Ciencias de Datos. El objetivo principal del proyecto es analizar el comportamiento de las rutas de transporte público urbano en la empresa **Transportes Montebello** durante el año 2024. A través de un proceso de Extracción, Transformación y Carga (ETL), se organizarán y analizarán los datos provenientes del sistema de información de la empresa **Registel**.
