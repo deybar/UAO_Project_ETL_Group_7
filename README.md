@@ -43,11 +43,44 @@ Actualmente, el despacho de vehículos en la empresa **Registel** opera de maner
 
 Este proyecto tiene como objetivo estructurar y analizar los datos disponibles para proporcionar indicadores clave que permitan mejorar la eficiencia y transparencia en la asignación de los vehículos.
 
+## STACK TECNOLÓGICO
+# Proyecto de Análisis del Comportamiento de Rutas de Transporte Público
+
 ## Tecnologías Utilizadas
-- **Lenguajes de Programación:** Python, SQL
-- **Bases de Datos:** MySQL
-- **Herramientas de ETL:** Apache Airflow, Pandas
-- **Visualización de Datos:** Power BI, Matplotlib, Seaborn
+- **Base de datos**: MySQL
+- **Lenguaje de programación**: Python
+- **Conectividad**: MySQL Connector
+- **Manipulación de datos**: Pandas
+- **Visualización de datos**: Matplotlib, Seaborn, Plotly, Dash
+- **Automatización ETL**: Apache Airflow
+- **Exploración de datos**: Jupyter Notebooks
+- **Control de versiones**: GitHub
+
+## Descripción
+Para nuestro proyecto de análisis del comportamiento de rutas de transporte público, se propone un stack tecnológico enfocado principalmente en el proceso de ETL, teniendo como punto de partida el origen de los datos, los cuales se encuentran en una base de datos MySQL.
+
+## Problema a Resolver
+Actualmente, el procesamiento de datos en la empresa es manual y propenso a errores, debido a la dispersión de fuentes de información como bases de datos, archivos CSV, aplicaciones móviles y documentos en papel. Este método genera reprocesos y dificulta la generación de KPIs confiables para la toma de decisiones estratégicas en áreas como Producción, Ventas, Finanzas y Recursos Humanos. La automatización del proceso ETL mediante herramientas de inteligencia artificial y visualización de datos permitirá transformar los datos en conocimiento accionable de manera eficiente y precisa.
+
+## Extracción de Datos
+Para la extracción de los datos y aprovechando la disponibilidad de la base de datos, se utiliza Python con MySQL Connector para acceder directamente a la base de datos. Esto permite ejecutar consultas personalizadas según las fechas y parámetros específicos que se necesitan analizar. La conexión directa nos da flexibilidad para extraer exactamente los datos que requieren nuestros KPIs.
+
+## Transformación de Datos
+En la fase de transformación, implementaremos Pandas como herramienta principal para manipular, limpiar y estructurar los datos. Se utilizarán Matplotlib y Seaborn para la visualización y validación de los datos procesados. Estas herramientas permitirán identificar valores atípicos, distribuciones de datos, correlaciones y datos faltantes mediante gráficos como histogramas y diagramas de caja (boxplots). Con Seaborn, se facilitará la detección de anomalías y patrones en los datos mediante visualizaciones más estilizadas y avanzadas, mientras que Matplotlib se usará para la generación de gráficos personalizados que permitan analizar tendencias y relaciones entre variables. Estas visualizaciones ayudarán a asegurar que los datos transformados sean coherentes, de calidad y listos para su posterior carga y análisis en la etapa final del proceso ETL.
+
+## Carga de Datos
+Para la carga de datos, se aprovechará la capacidad de Python para la generación de dataframes y la generación de información más estructurada que facilite el análisis posterior. También se implementará un sistema de logging para registrar cada operación del pipeline y detectar posibles errores, es decir, llevar un registro de cada paso del proceso de ETL, guardando información sobre tiempos de ejecución, cantidad de registros procesados, errores encontrados y acciones realizadas. Esto nos ayudará a monitorear el rendimiento del pipeline y detectar rápidamente cualquier problema en el procesamiento de datos.
+
+## Control de Versiones y Visualización
+Todo el código se mantendrá en GitHub para control de versiones y colaboración entre el equipo.
+
+Si se logra completar eficientemente el proceso ETL, se podrá extender el proyecto para incluir visualizaciones básicas con Plotly o Streamlit, mostrando los indicadores clave como el cumplimiento en tiempos de viaje, asignación equitativa de despachos y demanda de pasajeros por kilómetro.
+
+## Automatización del Proceso ETL
+Para automatizar el flujo ETL completo, utilizaremos Apache Airflow, que nos permitirá programar extracciones periódicas y mantener un proceso consistente sin intervención manual, eliminando así el factor humano que actualmente genera favoritismos.
+
+## Análisis Visual
+Para el análisis visual, combinaríamos Jupyter Notebooks para la exploración inicial de datos con Plotly y Dash para crear dashboards interactivos que muestren los KPIs definidos (cumplimiento de tiempos, asignación equitativa, etc.).
 
 ## Estructura del Repositorio
 ```
