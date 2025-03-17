@@ -18,7 +18,9 @@ Este proyecto busca organizar los datos y realizar un diagnóstico operacional d
 - Velocidad promedio.
 
 ## Problema a Resolver
-Actualmente, el despacho de vehículos en la empresa **Registel** opera de manera manual y subjetiva, basándose solo en la disponibilidad de los vehículos sin considerar la demanda real ni los patrones históricos de uso. Esto genera irregularidades en los despachos y problemas de equidad entre los conductores, afectando la calidad del servicio.
+Actualmente, el despacho de vehículos en la empresa **Registel** opera de manera manual y subjetiva, basándose solo en la disponibilidad de los vehículos sin considerar la demanda real ni los patrones históricos de uso. Esto genera irregularidades en los despachos y problemas de equidad entre los conductores, afectando la calidad del servicio. 
+
+Este proyecto tiene como objetivo estructurar y analizar los datos disponibles para proporcionar indicadores clave que permitan mejorar la eficiencia y transparencia en la asignación de los vehículos.
 
 ## Diccionario de los datos disponibles
 
@@ -40,11 +42,7 @@ Actualmente, el despacho de vehículos en la empresa **Registel** opera de maner
 | ESTADO_DESPACHO         | Estado del despacho según su progreso.                                      | int o categoría   | Ejemplo: 3        | 0: No controlado, 2: Controlado (Adelantado/Atrasado), 3: Controlado (En tiempo), 4: Terminado manualmente | Codificación numérica de estados.                                     |
 | PK_INTERVALO_DESPACHO   | Llave primaria única que identifica el intervalo del despacho.              | int               | Ejemplo: 1001     | Valores únicos y no nulos.                                                      | Identificador único para cada registro.                               |
 
-
-Este proyecto tiene como objetivo estructurar y analizar los datos disponibles para proporcionar indicadores clave que permitan mejorar la eficiencia y transparencia en la asignación de los vehículos.
-
 ## STACK TECNOLÓGICO
-# Proyecto de Análisis del Comportamiento de Rutas de Transporte Público
 
 ## Tecnologías Utilizadas
 - **Base de datos**: MySQL
@@ -58,9 +56,6 @@ Este proyecto tiene como objetivo estructurar y analizar los datos disponibles p
 
 ## Descripción
 Para nuestro proyecto de análisis del comportamiento de rutas de transporte público, se propone un stack tecnológico enfocado principalmente en el proceso de ETL, teniendo como punto de partida el origen de los datos, los cuales se encuentran en una base de datos MySQL.
-
-## Problema a Resolver
-Actualmente, el procesamiento de datos en la empresa es manual y propenso a errores, debido a la dispersión de fuentes de información como bases de datos, archivos CSV, aplicaciones móviles y documentos en papel. Este método genera reprocesos y dificulta la generación de KPIs confiables para la toma de decisiones estratégicas en áreas como Producción, Ventas, Finanzas y Recursos Humanos. La automatización del proceso ETL mediante herramientas de inteligencia artificial y visualización de datos permitirá transformar los datos en conocimiento accionable de manera eficiente y precisa.
 
 ## Extracción de Datos
 Para la extracción de los datos y aprovechando la disponibilidad de la base de datos, se utiliza Python con MySQL Connector para acceder directamente a la base de datos. Esto permite ejecutar consultas personalizadas según las fechas y parámetros específicos que se necesitan analizar. La conexión directa nos da flexibilidad para extraer exactamente los datos que requieren nuestros KPIs.
