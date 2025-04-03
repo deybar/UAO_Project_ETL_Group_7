@@ -81,9 +81,11 @@ Para el análisis visual, combinaríamos Jupyter Notebooks para la exploración 
 
 Para analizar el comportamiento de las rutas de transporte público, hemos desarrollado un dashboard interactivo utilizando Looker Studio. Este dashboard proporciona una visión detallada de los indicadores clave, como tiempos de viaje, asignación de despachos y demanda de pasajeros por kilómetro.
 
-[![Dashboard Interactivo](https://drive.google.com/file/d/1Jy_IkOLmkjC-89D8RDCrNht7WX36OCal/view?usp=drive_link)](https://lookerstudio.google.com/reporting/5e3584c7-4d0e-4b73-abfb-41c4004f115f/page/9fIFF)
+![dashboard _ooker Studio](https://drive.google.com/uc?export=view&id=1Jy_IkOLmkjC-89D8RDCrNht7WX36OCal)
 
-*Nota: Haz clic en la imagen para acceder al dashboard interactivo.*
+[Dashboard Interactivo](https://lookerstudio.google.com/reporting/5e3584c7-4d0e-4b73-abfb-41c4004f115f/page/9fIFF)
+
+*Nota: Haz clic en el enlace para acceder al dashboard interactivo.*
 
 Además, puedes consultar la presentación de la sustentación del proyecto en el siguiente enlace:
 
