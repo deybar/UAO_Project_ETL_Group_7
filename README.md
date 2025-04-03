@@ -77,6 +77,18 @@ Para automatizar el flujo ETL completo, utilizaremos Apache Airflow, que nos per
 ## Análisis Visual
 Para el análisis visual, combinaríamos Jupyter Notebooks para la exploración inicial de datos con Plotly y Dash para crear dashboards interactivos que muestren los KPIs definidos (cumplimiento de tiempos, asignación equitativa, etc.).
 
+## Visualización de Datos
+
+Para analizar el comportamiento de las rutas de transporte público, hemos desarrollado un dashboard interactivo utilizando Looker Studio. Este dashboard proporciona una visión detallada de los indicadores clave, como tiempos de viaje, asignación de despachos y demanda de pasajeros por kilómetro.
+
+[![Dashboard Interactivo](https://drive.google.com/file/d/1Jy_IkOLmkjC-89D8RDCrNht7WX36OCal/view?usp=drive_link)](https://lookerstudio.google.com/reporting/5e3584c7-4d0e-4b73-abfb-41c4004f115f/page/9fIFF)
+
+*Nota: Haz clic en la imagen para acceder al dashboard interactivo.*
+
+Además, puedes consultar la presentación de la sustentación del proyecto en el siguiente enlace:
+
+[Presentación del Proyecto](https://docs.google.com/presentation/d/1L2UUan6NTypp3vRfj9BfPWpl1LrILK4t/edit?slide=id.g346faa61264_0_0#slide=id.g346faa61264_0_0)
+
 ## Estructura del Repositorio
 ```
 /
